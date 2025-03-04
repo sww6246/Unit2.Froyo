@@ -1,4 +1,4 @@
-let flavorOrder = prompt("Enter your ice cream flavor orders, separated by commas");
+let flavorOrder = prompt("Enter your ice cream flavor orders from the options vanilla, strawberry and coffee. Separate your order by commas");
 console.log(flavorOrder);
 
 let flavorArr = flavorOrder.split(",");
